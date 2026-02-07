@@ -24,7 +24,7 @@ const Releases = () => {
       },
       color: 'from-blue-500 to-blue-600',
       badgeColor: 'bg-blue-600',
-      downloadUrl: '#'
+      downloadUrl: 'https://www.mediafire.com/file/odwbryob3sfsw1r/eduvora-1.4.0.apk/file'
     },
     {
       version: '1.3.0',
@@ -50,7 +50,7 @@ const Releases = () => {
       },
       color: 'from-green-500 to-green-600',
       badgeColor: 'bg-green-600',
-      downloadUrl: '#'
+      downloadUrl: 'https://www.mediafire.com/file/jzv5sxihnbh67mh/eduvora-1.3.0.apk/file'
     },
     {
       version: '1.2.0',
@@ -74,7 +74,7 @@ const Releases = () => {
       },
       color: 'from-purple-500 to-purple-600',
       badgeColor: 'bg-purple-600',
-      downloadUrl: '#'
+      downloadUrl: 'https://www.mediafire.com/file/5dt07vx4ijan1q8/eduvora-1.2.0.apk/file'
     },
     {
       version: '1.1.0',
@@ -154,10 +154,15 @@ const Releases = () => {
                           {release.status}
                         </span>
                       </div>
-                      <button className="flex items-center gap-2 px-6 py-3 bg-white/20 hover:bg-white/30 rounded-xl font-semibold transition-all duration-300 backdrop-blur-sm">
+                      <a 
+                        href={release.downloadUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 px-6 py-3 bg-white/20 hover:bg-white/30 rounded-xl font-semibold transition-all duration-300 backdrop-blur-sm"
+                      >
                         <Download size={20} />
                         Download
-                      </button>
+                      </a>
                     </div>
                     
                     <div className="flex items-center text-white/90 mb-3">
