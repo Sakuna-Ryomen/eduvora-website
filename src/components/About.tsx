@@ -110,18 +110,18 @@ const About = () => {
                   <div className="w-12 h-12 bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center">
                     <Rocket className="text-white" size={24} />
                   </div>
-                  <h3 className="text-3xl md:text-4xl font-bold tracking-tight">38 days of work</h3>
+                  <h3 className="text-3xl md:text-4xl font-bold tracking-tight">69 days of work</h3>
                 </div>
                 <p className="text-2xl text-light font-bold mb-5">
-                  Jan 1 – Feb 7, 2026
+                  Dec 1, 2025 – Feb 7, 2026
                 </p>
                 <p className="text-white/80 text-lg leading-[1.8]">
-                  Intense sprint from idea to production. Two major releases. Real testing. Real users. No shortcuts on quality.
+                  Intense sprint from idea to production. Four major releases. Real testing. Real users. No shortcuts on quality.
                 </p>
               </div>
               <div className="grid grid-cols-2 gap-5">
                 <div className="glass-effect rounded-2xl p-6 text-center transform hover:scale-110 transition-all duration-300 border border-white/10 cursor-pointer hover:border-primary/30">
-                  <div className="text-4xl font-bold text-gradient mb-2">2</div>
+                  <div className="text-4xl font-bold text-gradient mb-2">4</div>
                   <div className="text-sm text-white/70 font-medium">Releases</div>
                 </div>
                 <div className="glass-effect rounded-2xl p-6 text-center transform hover:scale-110 transition-all duration-300 border border-white/10 cursor-pointer hover:border-primary/30">
