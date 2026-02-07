@@ -51,7 +51,9 @@ const Hero = () => {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-fade-in" style={{ animationDelay: '0.3s' }}>
               <a 
-                href="#releases" 
+                href="https://www.mediafire.com/file/odwbryob3sfsw1r/eduvora-1.4.0.apk/file"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group px-8 py-4 bg-gradient-to-r from-primary to-secondary text-white rounded-xl font-semibold shadow-lg hover:shadow-2xl smooth-hover flex items-center justify-center gap-2 border border-primary/20 hover:scale-105 transition-all"
               >
                 Download Latest

@@ -227,12 +227,22 @@ const Releases = () => {
               Get notified about new releases and updates. Follow our development journey.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="px-8 py-4 bg-gradient-to-r from-primary to-purple-600 text-white rounded-xl font-semibold shadow-lg hover:shadow-2xl smooth-hover">
+              <a 
+                href="https://www.mediafire.com/file/odwbryob3sfsw1r/eduvora-1.4.0.apk/file"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-8 py-4 bg-gradient-to-r from-primary to-purple-600 text-white rounded-xl font-semibold shadow-lg hover:shadow-2xl smooth-hover inline-block text-center"
+              >
                 Download Latest Version
-              </button>
-              <button className="px-8 py-4 bg-white text-primary rounded-xl font-semibold shadow-lg hover:shadow-2xl smooth-hover border-2 border-primary/20">
+              </a>
+              <a 
+                href="https://github.com/Sakuna-Ryomen/eduvora-website"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-8 py-4 bg-white text-primary rounded-xl font-semibold shadow-lg hover:shadow-2xl smooth-hover border-2 border-primary/20 inline-block text-center"
+              >
                 View Changelog
-              </button>
+              </a>
             </div>
           </div>
         </div>

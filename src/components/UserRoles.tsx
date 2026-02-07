@@ -176,9 +176,14 @@ const UserRoles = () => {
             <p className="text-gray-600 mb-8 text-lg">
               Download now and discover how Eduvora can transform your educational experience
             </p>
-            <button className="px-8 py-4 bg-gradient-to-r from-primary to-secondary text-white rounded-xl font-semibold shadow-lg hover:shadow-2xl smooth-hover">
+            <a 
+              href="https://www.mediafire.com/file/odwbryob3sfsw1r/eduvora-1.4.0.apk/file"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-4 bg-gradient-to-r from-primary to-secondary text-white rounded-xl font-semibold shadow-lg hover:shadow-2xl smooth-hover inline-block"
+            >
               Download Latest Version
-            </button>
+            </a>
           </div>
         </div>
       </div>
