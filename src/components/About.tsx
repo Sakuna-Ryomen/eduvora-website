@@ -27,16 +27,16 @@ const About = () => {
               What makes it <span className="text-gradient">different?</span>
             </h3>
             <p className="text-secondary/80 text-lg leading-[1.8]">
-              Most college apps feel like they were built by people who've never been to college. Eduvora is built with <span className="font-semibold text-primary">React Native</span> and <span className="font-semibold text-primary">Expo</span>, 
-              powered by real-time tech that actually works. No lag. No "refresh to see new messages." Just instant.
+              Eduvora started in August 2023 and has evolved through 1.4+ versions. Built with <span className="font-semibold text-primary">React Native</span>, <span className="font-semibold text-primary">Expo</span>, and <span className="font-semibold text-primary">TypeScript</span>,
+              powered by <span className="font-semibold text-primary">Appwrite</span> for real-time backend. No lag. No "refresh to see new messages." Just instant WebSocket-based updates.
             </p>
             <p className="text-secondary/80 text-lg leading-[1.8]">
-              Attendance, leaves, announcements, schedules—everything in one clean app. Teachers don't need a training manual. 
-              Students don't need to ask "where do I find...?" It just makes sense.
+              From QR-code attendance to real-time dashboards, from iOS Face ID to 12-month calendars—every feature is built with attention to detail.
+              Teachers mark attendance in seconds. Students see updates instantly. HODs get live statistics across departments.
             </p>
             <p className="text-secondary/80 text-lg leading-[1.8]">
-              We obsessed over speed, security, and making things feel natural. Built with the same tech the pros use, 
-              so it scales with you—whether you're a 50-student class or a 5,000-student university.
+              We obsessed over speed (&lt; 500ms latency), security (biometric auth), and user experience. With SQLite for offline support,
+              Context API for state management, and cross-platform support for iOS & Android—it scales from 50 students to 5,000.
             </p>
 
             {/* Key Points */}

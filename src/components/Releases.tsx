@@ -51,6 +51,56 @@ const Releases = () => {
       color: 'from-green-500 to-green-600',
       badgeColor: 'bg-green-600',
       downloadUrl: '#'
+    },
+    {
+      version: '1.2.0',
+      date: 'December 11, 2025',
+      status: 'Production',
+      focus: 'QR Code Dual-Scan Attendance System',
+      highlights: [
+        'Full-screen QR code scanner with camera integration',
+        'Dual-scan attendance logic (Begin QR + Finish QR)',
+        'Dynamic header showing scan mode',
+        'Visual scanning frame with instructions',
+        'Time-stamped proof of attendance (HH:MM:SS)',
+        'Red to green status indicators',
+        'Automatic state reset after successful scans',
+        'Camera permission handling for iOS & Android'
+      ],
+      stats: {
+        features: '8',
+        security: '2-step',
+        accuracy: '100%'
+      },
+      color: 'from-purple-500 to-purple-600',
+      badgeColor: 'bg-purple-600',
+      downloadUrl: '#'
+    },
+    {
+      version: '1.1.0',
+      date: 'December 6, 2025',
+      status: 'Major Update',
+      focus: 'Teacher Module & Advanced Student Features',
+      highlights: [
+        'Complete Teacher Dashboard with statistics',
+        'Subject Management with CRUD operations',
+        'Attendance Marking with quick actions',
+        'Interactive Donut Chart with touch-to-select',
+        '12-month Calendar View with holiday detection',
+        'Student List with search functionality',
+        'Real-time AttendanceContext for cross-module sync',
+        'Teacher Profile management',
+        'Role switching between Student & Teacher views',
+        'Full dark mode support across all screens'
+      ],
+      stats: {
+        modules: '2',
+        screens: '15+',
+        features: '20+'
+      },
+      color: 'from-orange-500 to-orange-600',
+      badgeColor: 'bg-orange-600',
+      downloadUrl: '#'
     }
   ];
 

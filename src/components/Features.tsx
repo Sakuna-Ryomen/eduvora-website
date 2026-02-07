@@ -21,63 +21,64 @@ const Features = () => {
   const features = [
     {
       icon: <Zap className="text-white" size={32} />,
-      title: 'Lightning Fast',
-      description: 'See changes instantly. No waiting, no refresh button. Updates appear as they happen—like magic, but it\'s just good engineering.',
+      title: 'Real-Time Updates',
+      description: 'Appwrite Realtime integration powers instant dashboards. See changes as they happen—WebSocket-based live updates with < 500ms latency.',
       color: 'from-primary to-secondary',
       stats: '< 500ms'
     },
     {
       icon: <Bell className="text-white" size={32} />,
-      title: 'Smart Alerts',
-      description: 'Get notified about what matters. New assignment? Alert. Class cancelled? You\'ll know. No more checking your email 50 times.',
+      title: 'Live Notifications',
+      description: 'Real-time notification system with unread badges. Priority-based alerts, mark as read, auto-refresh every 30s. Never miss important updates.',
       color: 'from-warning to-orange-500',
-      stats: 'Cloud-synced'
+      stats: 'Live badges'
     },
     {
       icon: <ClipboardCheck className="text-white" size={32} />,
-      title: 'Attendance Tracking',
-      description: 'Mark attendance in seconds. Visual charts show trends at a glance. Teachers can actually focus on teaching.',
+      title: 'QR Code Attendance',
+      description: 'Dual-scan system with Begin & Finish QRs. Real timestamps, visual status indicators. Only marks present when both scans complete.',
       color: 'from-success to-emerald-600',
-      stats: 'Auto-sync'
+      stats: 'Dual-scan'
     },
     {
       icon: <Calendar className="text-white" size={32} />,
-      title: 'Your Schedule',
-      description: 'Weekly timetable that\'s actually readable. Color-coded classes. Knows when you have conflicts. It just works.',
+      title: 'Smart Scheduling',
+      description: '12-month calendar with real dates, holiday detection (16 Indian holidays). Color-coded attendance tracking with interactive date selection.',
       color: 'from-primary to-light',
-      stats: 'Smart AI'
+      stats: 'Holiday detection'
     },
     {
       icon: <FileText className="text-white" size={32} />,
-      title: 'Notes & Files',
-      description: 'Upload study materials once, share with everyone. PDFs, images, whatever—we handle it. No more "can you send the notes again?"',
+      title: 'Cross-Platform',
+      description: 'iOS & Android support. Native performance with React Native + Expo. Face ID/Touch ID biometric auth. Works seamlessly on both platforms.',
       color: 'from-secondary to-dark',
-      stats: 'Multi-format'
+      stats: 'iOS & Android'
     },
     {
       icon: <MessageSquare className="text-white" size={32} />,
-      title: 'Announcements',
-      description: 'Push important updates to students instantly. Mark them urgent. They\'ll actually see it—unlike email.',
+      title: 'Interactive Charts',
+      description: 'Touch-to-select donut charts for subject-wise attendance. Real-time stats with color-coded segments. Visual feedback with animations.',
       color: 'from-pink-500 to-rose-600',
-      stats: 'Priority levels'
+      stats: 'Touch interactive'
     },
     {
       icon: <TrendingUp className="text-white" size={32} />,
-      title: 'Leave Requests',
-      description: 'Submit leave in 30 seconds. Teachers approve with one tap. Everyone knows the status. No paper trail needed.',
+      title: 'HOD Dashboard',
+      description: 'Live statistics for teachers/students. Real-time pending approvals tracking. Department-wide schedule oversight with instant updates.',
       color: 'from-primary to-indigo-600',
-      stats: 'One-tap approval'
+      stats: 'Live stats'
     },
     {
       icon: <Users className="text-white" size={32} />,
-      title: 'Event Management',
-      description: 'Create events, set RSVP limits, send reminders. Calendar integration means students won\'t miss it.',
+      title: 'Multi-Role System',
+      description: 'Complete modules for Students, Teachers & HOD. Role switching, profile management with image upload & cropping. Context-based state management.',
       color: 'from-secondary to-primary',
-      stats: 'RSVP tracking'
+      stats: '3 user roles'
     },
     {
       icon: <Shield className="text-white" size={32} />,
-      title: 'Secure Recovery',
+      title: 'Account Recovery',
+
       description: 'Forgot password? Reset via email. Your data stays yours. We verify everything because we care about security.',
       color: 'from-error to-red-700',
       stats: 'Email verified'
