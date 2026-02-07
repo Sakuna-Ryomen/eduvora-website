@@ -103,7 +103,7 @@ const Testimonials = () => {
               <div className="text-secondary/70">Average Rating</div>
             </div>
             <div className="transform hover:scale-105 transition-transform">
-              <div className="text-4xl font-bold text-gradient mb-2">500+</div>
+              <div className="text-4xl font-bold text-gradient mb-2">50+</div>
               <div className="text-secondary/70">Active Users</div>
             </div>
             <div className="transform hover:scale-105 transition-transform">

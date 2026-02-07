@@ -14,7 +14,7 @@ const About = () => {
             <span className="text-sm font-semibold text-secondary">The Story</span>
           </div>
           <h2 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight">
-            Built by students, <span className="text-gradient">for students</span>
+            Built by EduVora, <span className="text-gradient">for students</span>
           </h2>
           <p className="text-xl text-secondary/80 max-w-3xl mx-auto leading-[1.8]">
             We got tired of clunky college apps that felt like they were designed in 2005. So we built something better.
@@ -27,7 +27,7 @@ const About = () => {
               What makes it <span className="text-gradient">different?</span>
             </h3>
             <p className="text-secondary/80 text-lg leading-[1.8]">
-              Eduvora started in August 2023 and has evolved through 1.4+ versions. Built with <span className="font-semibold text-primary">React Native</span>, <span className="font-semibold text-primary">Expo</span>, and <span className="font-semibold text-primary">TypeScript</span>,
+              Eduvora started in July 15 and has evolved through 1.4+ versions. Built with <span className="font-semibold text-primary">React Native</span>, <span className="font-semibold text-primary">Expo</span>, and <span className="font-semibold text-primary">TypeScript</span>,
               powered by <span className="font-semibold text-primary">Appwrite</span> for real-time backend. No lag. No "refresh to see new messages." Just instant WebSocket-based updates.
             </p>
             <p className="text-secondary/80 text-lg leading-[1.8]">

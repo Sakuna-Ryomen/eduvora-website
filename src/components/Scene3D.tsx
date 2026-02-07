@@ -136,12 +136,13 @@ function DashboardUI() {
 
 function PhoneModel({ scrollY: _scrollY, mouseX: _mouseX }: PhoneModelProps) {
   const phoneRef = useRef<THREE.Group>(null);
-  const [dragRotation, setDragRotation] = useState({ x: 0.1, y: 0.2 });
+  // Start with straight front-facing view (0 degrees)
+  const [dragRotation, setDragRotation] = useState({ x: 0, y: 0 });
   const [isDragging, setIsDragging] = useState(false);
   const [zoom, setZoom] = useState(4);
   const isHoveringRef = useRef(false);
   const dragStart = useRef({ x: 0, y: 0 });
-  const lastRotation = useRef({ x: 0.1, y: 0.2 });
+  const lastRotation = useRef({ x: 0, y: 0 });
 
   useFrame(() => {
     if (phoneRef.current) {
@@ -168,8 +169,9 @@ function PhoneModel({ scrollY: _scrollY, mouseX: _mouseX }: PhoneModelProps) {
       y: lastRotation.current.y + deltaX,
     };
     
-    // Apply rotation limits
-    newRotation.x = Math.max(-Math.PI * 0.4, Math.min(Math.PI * 0.4, newRotation.x));
+    // Apply rotation limits - keep mostly straight with limited rotation
+    newRotation.x = Math.max(-Math.PI * 0.1, Math.min(Math.PI * 0.1, newRotation.x));
+    newRotation.y = Math.max(-Math.PI * 0.15, Math.min(Math.PI * 0.15, newRotation.y));
     
     setDragRotation(newRotation);
     
@@ -201,7 +203,7 @@ function PhoneModel({ scrollY: _scrollY, mouseX: _mouseX }: PhoneModelProps) {
       
       setZoom((prev) => {
         const newZoom = prev - e.deltaY * 0.005;
-        return Math.max(-2, Math.min(8, newZoom));
+        return Math.max(-2, Math.min(6, newZoom));
       });
     };
 

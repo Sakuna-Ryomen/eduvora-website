@@ -78,7 +78,7 @@ const Hero = () => {
                 <div className="text-sm text-secondary/70 mt-1">Features</div>
               </div>
               <div className="text-center lg:text-left group cursor-pointer">
-                <div className="text-3xl md:text-4xl font-bold text-gradient group-hover:scale-110 transition-transform inline-block">500+</div>
+                <div className="text-3xl md:text-4xl font-bold text-gradient group-hover:scale-110 transition-transform inline-block">50+</div>
                 <div className="text-sm text-secondary/70 mt-1">Active Users</div>
               </div>
             </div>
