@@ -155,9 +155,7 @@ const Releases = () => {
                         </span>
                       </div>
                       <a 
-                        href={release.downloadUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        href="#download-section"
                         className="flex items-center gap-2 px-6 py-3 bg-white/20 hover:bg-white/30 rounded-xl font-semibold transition-all duration-300 backdrop-blur-sm"
                       >
                         <Download size={20} />
@@ -209,8 +207,8 @@ const Releases = () => {
                 {/* Footer */}
                 <div className={`bg-gradient-to-r ${release.color} bg-opacity-5 px-8 py-4 flex items-center justify-between`}>
                   <span className="text-sm text-gray-600 font-medium">Released on {release.date}</span>
-                  <a href="#" className="flex items-center gap-2 text-sm font-semibold text-primary hover:text-secondary transition-colors duration-300">
-                    View Details
+                  <a href="#download-section" className="flex items-center gap-2 text-sm font-semibold text-primary hover:text-secondary transition-colors duration-300">
+                    Download Now
                     <ExternalLink size={16} />
                   </a>
                 </div>
@@ -220,7 +218,7 @@ const Releases = () => {
         </div>
 
         {/* Call to Action */}
-        <div className="mt-16 text-center animate-fade-in" style={{ animationDelay: '0.6s' }}>
+        <div id="download-section" className="mt-16 text-center animate-fade-in" style={{ animationDelay: '0.6s' }}>
           <div className="glass-effect rounded-3xl p-12 border-2 border-white/20">
             <h3 className="text-3xl font-bold mb-4">Stay Updated</h3>
             <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
